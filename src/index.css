@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    background: black url(src/GMC.jpg) center center / cover no-repeat fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.input {
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+.input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 47, 255);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+
+.information {
+    background: rgba(99, 96, 96, 0.7);
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(218, 213, 213);
+    max-width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    margin: 30px auto; 
+    
+}
+
+
+
+ 
+  
+
+.clock-container {
+    position: fixed; /* or absolute depending on your needs */
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    padding: 20px; /* You might want to reduce the padding */
+}
+  
+  .clock{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family:monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px hsla(0, 0%, 0.75, alpha)
+    
+  
+  
+  
+  
+  }
